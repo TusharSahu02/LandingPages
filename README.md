@@ -4,10 +4,12 @@
 
 ### Check out my Profile
 
+<a href="https://www.instagram.com/nonexpert._/" style="text-decoration:none; color:#fff;">
 <div style="display:flex; align-items:center;">
 <img src="https://png.pngtree.com/png-clipart/20180518/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3571406.png" alt="Instagram" height="50px" style="margin-left:20px;" href="www.google.com"> 
 <p style="margin-top:10px;">@nonexpert._</p>
 </div>
+</a>
 
 - Day 1/100 -> [LandingPage1](https://github.com/TusharSahu02/LandingPages/tree/main/L1) This page is set for desktop screen only
 - Day 2/100 -> [LandingPage2](https://github.com/TusharSahu02/LandingPages/tree/main/L2) Same goes with this too (Desktop screen)
