@@ -4,7 +4,7 @@
 
 ### Check out my Profile
 
-<a href="https://www.instagram.com/nonexpert._/" style="text-decoration:none; color:#fff;">
+<a href="https://www.instagram.com/nonexpert._/" style="text-decoration:none; color:#fff;" target="_blank">
 <div style="display:flex; align-items:center;">
 <img src="https://png.pngtree.com/png-clipart/20180518/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3571406.png" alt="Instagram" height="50px" style="margin-left:20px;" > 
 </div>
