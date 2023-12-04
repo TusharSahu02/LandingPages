@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --url1: url("https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --url2: url("https://images.unsplash.com/photo-1528543606781-2f6e6857f318?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --url3: url("https://images.unsplash.com/photo-1647891940243-77a6483a152e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --url4: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --purple: #9c00ff;
+  --orange-light: #f5bc595e;
+  --purple-light: #9d00ff5b;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.purple {
+  color: var(--purple);
+}
+/* nav bar css */
+
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  padding: 0 300px;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.links ul li {
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.btns {
+  display: flex;
+}
+
+.btn1 {
+  color: var(--purple);
+  margin: 0 20px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.btn2 {
+  cursor: pointer;
+  background-color: var(--purple);
+  color: #fff;
+  border-radius: 30px;
+  margin: 0 20px;
+  padding: 8px 20px;
+}
+
+/* Home section CSS */
+
+.home {
+  height: 80vh;
+  display: flex;
+}
+
+.home-left {
+  /* background-color: red; */
+  /* margin-left: 100px; */
+  padding-left: 100px;
+  align-items: start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-right {
+  /* background-color: aqua; */
+  position: relative;
+}
+.home-left,
+.home-right {
+  width: 50%;
+}
+.bg {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  z-index: -1;
+  scale: 1.4;
+}
+.bg2 {
+  position: absolute;
+  transform: rotate(90deg);
+  z-index: -1;
+  right: 8%;
+  scale: 1.4;
+  bottom: 30%;
+}
+.img1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  top: 150px;
+  left: 100px;
+  background-image: var(--url1);
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  right: 30px;
+  background-image: var(--url2);
+  background-position: center;
+  background-size: cover;
+}
+.img3 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  bottom: 100px;
+  left: 20px;
+  background-image: var(--url3);
+  background-position: center;
+  background-size: cover;
+}
+.img4 {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  right: 150px;
+  bottom: 200px;
+  background-image: var(--url4);
+  background-size: cover;
+}
+.box {
+  box-shadow: 0px 0px 28px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 700px;
+  padding: 20px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 50px;
+  z-index: 99;
+  /* position: absolute; */
+}
+.one,
+.two {
+  display: flex;
+  align-items: center;
+}
+.o-left {
+  margin-right: 20px;
+  background-color: var(--purple-light);
+  padding: 6px 4px;
+  border-radius: 10px;
+}
+.cal {
+  background-color: var(--orange-light);
+}
+.o-left img {
+  height: 25px;
+}
+
+.home-left h4 {
+  color: var(--purple);
+  font-size: 1.3rem;
+}
+.home-left h1 {
+  width: 90%;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.home-left > p {
+  color: #0000006d;
+}
+.three {
+  padding: 20px;
+  background-color: var(--purple);
+  color: #fff;
+  border-radius: 30px;
+}
